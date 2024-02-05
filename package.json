@@ -1,0 +1,24 @@
+{
+  "author": "AdamLin <adam13579246@gmail.com> (Adam Lin)",
+  "contributors": [],
+  "description": "Table previewer, paste the HTML code of a table to show table on etherpad",
+  "engines": {
+    "node": "*"
+  },
+  "name": "ep_previewtable",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamlinhandsome/ep_previewtable.git"
+  },
+  "version": "0.0.1",
+  "homepage": "https://github.com/adamlinhandsome/ep_previewimages#readme",
+  "main": "previewtable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "preview",
+    "table"
+  ],
+  "license": "ISC",
+}
