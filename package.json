@@ -1,24 +1,44 @@
 {
-  "author": "AdamLin <adam13579246@gmail.com> (Adam Lin)",
-  "contributors": [],
-  "description": "Table previewer, paste the HTML code of a table to show table on etherpad",
-  "engines": {
-    "node": "*"
-  },
   "name": "ep_previewtable",
+  "version": "0.0.2",
+  "description": "Table previewer, paste the HTML code of a table to show on etherpad",
+  "author": {
+    "name": "Adam Lin",
+    "email":  "<adam13579246@gmail.com>",
+    "github": "https://github.com/adamlinhandsome"
+  },
+  "contributors": [
+    ""
+  ],
+  "keywords": [
+    "etherpad",
+    "plugin",
+    "ep"
+  ],
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamlinhandsome/ep_previewtable.git"
+    "url": "https://github.com/adamlinhandsome/ep_previewtable.git"
   },
-  "version": "0.0.1",
-  "homepage": "https://github.com/adamlinhandsome/ep_previewimages#readme",
-  "main": "previewtable.js",
+  "bugs": {
+    "url": "https://github.com/adamlinhandsome/ep_previewtable/issues"
+  },
+  "homepage": {
+    "url": "https://github.com/adamlinhandsome/ep_previewtable/README.md"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://etherpad.org/"
+  },
+    "eslintConfig": {
+    "root": true,
+    "extends": "etherpad/plugin"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
-  "keywords": [
-    "preview",
-    "table"
-  ],
-  "license": "ISC",
+  "engines": {
+    "node": ">= 10.13.0"
+  }
 }
