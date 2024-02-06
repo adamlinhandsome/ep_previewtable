@@ -1,6 +1,4 @@
 # ep__previewtable
-![Publish Status](https://github.com/adamlinhandsome/ep_previewtable/workflows/Node.js%20Package/badge.svg) ![Publish Status](https://github.com/adamlinhandsome/ep_previewtable/workflows/Node.js%20Package/badge.svg)
-![Screenshot](https://user-images.githubusercontent.com/220864/107214131-5c3dd600-6a01-11eb-82d9-b2d67ec8ae93.png)
 
 ## What is ep_previewtable?
 An Etherpad Plugin to apply the ep_previewtable functionality in a pad. (It can show the table on Etherpad while you paste the HTML code of table)
