@@ -2,6 +2,7 @@
 
 ## What is ep_previewtable?
 An Etherpad Plugin to apply the ep_previewtable functionality in a pad. (It can show the table on Etherpad while you paste the HTML code of table)
+
 Currently supports:
 *Paste the <br/><table>.......</table><br/> that can show the HTML table
 
