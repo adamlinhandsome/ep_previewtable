@@ -1,6 +1,6 @@
 {
   "name": "ep_previewtable",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Table previewer, paste the HTML code of a table to show on etherpad",
   "author": {
     "name": "Adam Lin",
